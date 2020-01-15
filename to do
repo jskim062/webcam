@@ -1,0 +1,12 @@
+sudo apt install fswebcam
+
+sudo apt-get install imagemagick
+
+
+sudo usermod -a -G video <username>  #if you doesn't use ssh
+
+
+fswebcam image.jpg    #take image
+
+
+display  image-name.jpg              #if you are using ssh go to raspberry pi and open new terminal and enter
